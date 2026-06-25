@@ -1,0 +1,29 @@
+{
+  "name": "jrk-electrician-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium JRK Electrician service booking website built with React, Vite and Tailwind CSS.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "download": "node scripts/create-download.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "framer-motion": "latest",
+    "react-icons": "latest",
+    "swiper": "latest",
+    "yet-another-react-lightbox": "latest"
+  },
+  "devDependencies": {
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  }
+}
